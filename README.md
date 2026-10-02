@@ -55,7 +55,7 @@ It runs until the window is closed and prints the conservation totals to the con
 | --- | --- |
 | `SimulacionPelotas3.py` | Main version: ten balls of random mass, exact elastic collisions and the conservation log |
 | `SimulacionPelotas2.py` | Second version: 72 equal-mass balls on a 12 × 6 grid. It rotates the relative velocity into the contact frame and hands the normal component to the other ball as a deferred force, added after every ball has moved |
-| `simulacionpelotas.py` | First stub: a `Sphere` class and a main loop with an empty body. It only prints a test angle |
+| `simulacionpelotas.py` | First stub: a `Sphere` class and a main loop that only measures the frame time. It only prints a test angle |
 
 ## Limitations
 
