@@ -7,7 +7,6 @@
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pygame](https://img.shields.io/badge/Pygame-2.x-30363D?style=flat-square)
 ![Status](https://img.shields.io/badge/status-working-2DA44E?style=flat-square)
-![Year](https://img.shields.io/badge/year-2023-8250DF?style=flat-square)
 
 <img src="docs/preview.gif" alt="White balls of different sizes drifting on a black background, bouncing off each other and off the walls" width="560">
 
@@ -64,10 +63,6 @@ It runs until the window is closed and prints the conservation totals to the con
 - A wall bounce only flips the velocity and does not move the ball back inside, so a collision right next to a wall can leave a ball trembling against it.
 - Because of the walls, total momentum is not conserved; only the kinetic energy in the log is a meaningful check.
 - The earlier files are kept for history and do not work well. The first stub never reads window events, so its window stops responding. The second version adds every ball to the list twice, so each one moves and collides twice per frame, and it prints the frame number every frame. `addForces` in the third version is a leftover from the second and is never called.
-
-## Background
-
-Written in or before June 2023; the files come from a code backup made that month and were put under version control in 2026. The order of the three versions comes from the folder names (`simulacionPelotas`, `SimulacionPelotas2`, `SimulacionPelotas3`), because the backup does not keep the original file dates.
 
 ---
 
